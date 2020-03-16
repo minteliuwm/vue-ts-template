@@ -1,13 +1,17 @@
 {
   "name": "vue-ts-template",
-  "version": "0.1.0",
+  "version": "1.0.0",
+  "description": "A template based vue and typescript",
+  "author": "liuwm",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "test:e2e": "vue-cli-service test:e2e",
-    "test:unit": "vue-cli-service test:unit"
+    "test:unit": "vue-cli-service test:unit",
+    "release": "./build/release.sh",
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0"
   },
   "dependencies": {
     "core-js": "^3.4.4",
