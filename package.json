@@ -44,7 +44,7 @@
     "lint-staged": "^8.1.5",
     "lodash": "^4.17.15",
     "lodash-webpack-plugin": "^0.11.5",
-    "qs": "^6.9.1",
+    "qs": "^6.5.3",
     "typescript": "~3.5.3",
     "vue-template-compiler": "^2.6.10"
   },
